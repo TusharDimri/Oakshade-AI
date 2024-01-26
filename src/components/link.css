@@ -1,0 +1,35 @@
+.link-link {
+  align-items: center;
+  justify-content: center;
+}
+.link-caption {
+  font-size: 1.8rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.link-icon {
+  width: 24px;
+}
+.link-root-class-name {
+  display: none;
+}
+.link-root-class-name1 {
+  width: auto;
+}
+@media(max-width: 1200px) {
+  .link-link {
+    align-items: center;
+    justify-content: center;
+  }
+  .link-root-class-name {
+    align-self: flex-end;
+  }
+}
+@media(max-width: 991px) {
+  .link-caption {
+    display: none;
+  }
+}
